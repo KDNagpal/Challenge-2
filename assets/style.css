@@ -1,0 +1,71 @@
+body{
+  background: #1e2124;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #424549;
+  color: white
+}
+
+.projectbox {
+  width: 350px;
+  height: 260px;
+  max-height: 260px;
+  margin: 20px;
+  flex: 0 0 1px;
+  box-shadow: 10px 10px 20px #7289da;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.projectbox:hover{
+  zoom: 115%;
+
+}
+
+img{
+  width: 350px;
+  height: 240px;
+}
+
+.intro{
+  width: 500px;
+  height: 260px;
+  max-height: 260px;
+  margin: 20px;
+  vertical-align: middle;
+
+}
+
+a:link{
+  color: white;
+  
+}
+
+a:visited{
+  color: #7289da;
+}
+
+a:hover{
+  color: red;
+}
+
+.profile{
+  width: 100px;
+  height: 100px;
+  max-height: 100px;
+  margin: 20px;
+  flex:  0 1px;
+  display: inline-block;
+}
+
